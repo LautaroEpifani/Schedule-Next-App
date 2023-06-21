@@ -44,7 +44,7 @@ const Profile = () => {
                 <Link href="/">
                   <h1 className=" font-bold">{user.username}</h1>
                 </Link>
-                <p className=" font-semibold">Profile</p>
+                <p className=" font-semibold">Profile </p>
                 <div className="flex gap-4 items-center my-2">
                   <IconContext.Provider value={{ size: "20px" }}>
                     <MdWorkOutline />
